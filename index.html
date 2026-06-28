@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>King's Hall 360 Experience</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<button id="roomListControl" class="sceneListControlButton">Hide Rooms</button>
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrance">
+        <li class="text">entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-entrance-2">
+        <li class="text">entrance 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-centre-room">
+        <li class="text">centre room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-ridgeway-room-1">
+        <li class="text">Ridgeway Room (1)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-stairs">
+        <li class="text">stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-top-of-stairs-1">
+        <li class="text">Top of Stairs (1)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-elizabeths-room-1">
+        <li class="text">Elizabeths room 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-elizabeths-room-2-">
+        <li class="text">Elizabeths Room 2 </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-chair-room-1">
+        <li class="text">Chair Room 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-chair-room-2">
+        <li class="text">Chair Room 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-council-chamber-corridor-start">
+        <li class="text">Council Chamber Corridor start</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-council-chamber-corridor">
+        <li class="text">Council Chamber Corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-leads-to-council-chamber-1">
+        <li class="text">Leads to council Chamber (1)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-council-chamber-2">
+        <li class="text">Council chamber 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-council-chamber-4">
+        <li class="text">Council Chamber 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-mayor-corridor">
+        <li class="text">mayor corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-mayor-corridor-2">
+        <li class="text">mayor corridor 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-mayor-room">
+        <li class="text">mayor room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-stage">
+        <li class="text">stage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-balcony-2">
+        <li class="text">balcony 2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<img id="logo" src="img/council logo white.png" alt="Logo">
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
