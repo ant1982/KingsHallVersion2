@@ -87,7 +87,7 @@ var APP_DATA = {
     },
     {
       "id": "2-centre-room",
-      "name": "centre room",
+      "name": "Crush Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -379,7 +379,7 @@ var APP_DATA = {
     },
     {
       "id": "7-elizabeths-room-2-",
-      "name": "Elizabeths Room 2 ",
+      "name": "Queen Elizabeth's Room 2 ",
       "levels": [
         {
           "tileSize": 256,
