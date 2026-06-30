@@ -470,7 +470,7 @@ var APP_DATA = {
     },
     {
       "id": "9-chair-room-2",
-      "name": "Jubilee Room 2",
+      "name": "Jubilee Room",
       "levels": [
         {
           "tileSize": 256,
@@ -762,7 +762,14 @@ var APP_DATA = {
           "target": "18-stage"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+      {
+          "yaw": 2.25,
+          "pitch": 0.009768522265053647,
+          "title": "Sporting Hall of Fame",
+          "text": "<img src='img/SportsHoF.jpeg' style='width:300px;'>"
+        }
+      ]
     },
     {
       "id": "16-mayor-corridor-2",
