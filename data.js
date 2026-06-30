@@ -141,7 +141,7 @@ var APP_DATA = {
     },
     {
       "id": "3-ridgeway-room-1",
-      "name": "Ridgeway Room (1)",
+      "name": "Ridgeway Room",
       "levels": [
         {
           "tileSize": 256,
@@ -269,7 +269,7 @@ var APP_DATA = {
     },
     {
       "id": "5-top-of-stairs-1",
-      "name": "Top of Stairs (1)",
+      "name": "Top of Stairs",
       "levels": [
         {
           "tileSize": 256,
@@ -330,7 +330,7 @@ var APP_DATA = {
     },
     {
       "id": "6-elizabeths-room-1",
-      "name": "Elizabeths room 1",
+      "name": " Queen Elizabeth's Room 1",
       "levels": [
         {
           "tileSize": 256,
@@ -409,7 +409,7 @@ var APP_DATA = {
     },
     {
       "id": "8-chair-room-1",
-      "name": "Chair Room 1",
+      "name": "Jubilee Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -877,7 +877,7 @@ var APP_DATA = {
     },
     {
       "id": "18-stage",
-      "name": "stage",
+      "name": "The King's Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -913,7 +913,7 @@ var APP_DATA = {
     },
     {
       "id": "19-balcony-2",
-      "name": "balcony 2",
+      "name": "The Kings",
       "levels": [
         {
           "tileSize": 256,
