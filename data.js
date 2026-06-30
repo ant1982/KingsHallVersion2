@@ -815,32 +815,32 @@ var APP_DATA = {
         {
           "yaw": -0.6664224398638972,
           "pitch": 0.009768522265053647,
-          "title": "Title",
+          "title": "Title1",
           "text": "Text"
         },
         {
           "yaw": 0.07036323246300746,
           "pitch": 0.06338524770038134,
-          "title": "Title",
+          "title": "Title2",
           "text": "Text"
         },
         {
           "yaw": 1.2211956844656608,
           "pitch": 0.060449231408277626,
-          "title": "Title",
+          "title": "Title3",
           "text": "Text"
         },
         {
           "yaw": 3.002064745826895,
           "pitch": 0.05812051946649888,
-          "title": "Title",
+          "title": "Title4",
           "text": "Text"
         },
         {
           "yaw": -2.6293911488181028,
           "pitch": 0.018412614558922513,
-          "title": "Title",
-          "text": "Text"
+          "title": "Help For Heroes",
+          "text": "<img src='img/HFH.jpeg' style='width:300px;'>"
         }
       ]
     },
