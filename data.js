@@ -470,7 +470,7 @@ var APP_DATA = {
     },
     {
       "id": "9-chair-room-2",
-      "name": "Chair Room 2",
+      "name": "Jubilee Room 2",
       "levels": [
         {
           "tileSize": 256,
